@@ -2,6 +2,8 @@
 
 Welcome to the Portfolio Management System, a simple yet powerful tool designed for managing and visualizing your investment portfolio. This system allows you to track your investments across various sectors, adding stocks to your portfolio, and viewing your total investments through intuitive pie charts.
 
+As a note, for this project to properly run, a unique API key will need to be installed at the financial modeling prep website in addition to the necessary downloads
+
 ## Features
 
 - **Portfolio Tracking:** Keep a record of all the stocks in your portfolio along with their sectors and investment values.
