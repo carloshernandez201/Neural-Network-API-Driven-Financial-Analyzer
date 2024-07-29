@@ -83,4 +83,4 @@ class Portfolio:
             print(stock.weight)
             weighted_return = stock.weight * stock.return_rate
             total_return += weighted_return
-        return total_returnimport requests
+        return total_returnimport
