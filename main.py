@@ -47,12 +47,12 @@ if __name__ == '__main__':
         elif menu_selection == 5:
             ticker = input("Enter the ticker for prediction: ")
             stock_data = stock.fetch_stock_data(ticker)
-            model, scaler, X_test, y_test = stock.create_and_train_lstm_model(stock_data)
+            model, scaler, X_test, y_test = stock.create_and_train_lstm_model(stock_data) #create and train model, get test data
             last_100_days = stock.fetch_last_100_days(stock_data)
 
-            # Predict the next day's price
-            predicted_price = stock.predict_next_day_price(model, scaler, last_100_days)
-            stock.predict_stock_prices(model, scaler, X_test, y_test)
+            
+            predicted_price = stock.predict_next_day_price(model, scaler, last_100_days) # predict 
+            #stock.predict_stock_prices(model, scaler, X_test, y_test)
             cur_price = stock.get_current_price(ticker)
             print(f"The current price for {ticker} is {cur_price}")
             print(f"The predicted price for {ticker} for tomorrow is: {predicted_price}")
