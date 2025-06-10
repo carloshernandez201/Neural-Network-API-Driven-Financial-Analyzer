@@ -1,6 +1,6 @@
-# TradeGPT: AI-Powered Market Intelligence & Portfolio Simulator 💹🧠
+# MarketIQ: AI-Powered Market Intelligence & Portfolio Simulator 💹🧠
 
-**TradeGPT** is an intelligent, full-stack financial web app that blends real-time market data, AI-powered news summarization, and predictive analytics to help users simulate investment strategies like a pro.
+**MarketIQ** is an intelligent, full-stack financial web app that blends real-time market data, AI-powered news summarization, and predictive analytics to help users simulate investment strategies like a pro.
 
 ## 🔥 Key Features
 
@@ -31,8 +31,8 @@
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/tradegpt.git
-   cd tradegpt
+   git clone https://github.com/your-username/MarketIQ.git
+   cd MarketIQ
    ```
 
 2. **Install Python dependencies**  
